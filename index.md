@@ -67,10 +67,10 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 | [CWE-1314](1198-privilege-access-control/cwe-1314.md) | Missing Write Protection for Parametric Data Values | Done |
 | [CWE-1318](1198-privilege-access-control/cwe-1318.md) | Missing Support for Security Features in On-chip Fabrics or Buses | Done |
 | [CWE-1334](1198-privilege-access-control/cwe-1334.md) | Unauthorized Error Injection Can Degrade Hardware Redundancy | Done |
-| [CWE-1420](1198-privilege-access-control/cwe-1420.md) | Exposure of Sensitive Information during Transient Execution | Done (↗1201) |
-| [CWE-1421](1198-privilege-access-control/cwe-1421.md) | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution | Done (↗1201) |
-| [CWE-1422](1198-privilege-access-control/cwe-1422.md) | Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution | Done (↗1201) |
-| [CWE-1423](1198-privilege-access-control/cwe-1423.md) | Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution | Done (↗1201) |
+| [CWE-1420](1201-core-compute/cwe-1420.md) | Exposure of Sensitive Information during Transient Execution | Done (↗1201) |
+| [CWE-1421](1201-core-compute/cwe-1421.md) | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution | Done (↗1201) |
+| [CWE-1422](1201-core-compute/cwe-1422.md) | Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution | Done (↗1201) |
+| [CWE-1423](1201-core-compute/cwe-1423.md) | Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution | Done (↗1201) |
 
 ---
 
@@ -119,11 +119,11 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 | [CWE-1251](1202-memory-storage/cwe-1251.md) | Mirrored Regions with Different Values | Done |
 | [CWE-1257](1202-memory-storage/cwe-1257.md) | Improper Access Control Applied to Mirrored or Aliased Memory Regions | Done |
 | [CWE-1282](1202-memory-storage/cwe-1282.md) | Assumed-Immutable Data is Stored in Writable Memory | Done |
-| [CWE-1342](1202-memory-storage/cwe-1342.md) | Information Exposure through Microarchitectural State after Transient Execution | Done (↗1201) |
-| [CWE-1420](1202-memory-storage/cwe-1420.md) | Exposure of Sensitive Information during Transient Execution | Done (↗1201) |
-| [CWE-1421](1202-memory-storage/cwe-1421.md) | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution | Done (↗1201) |
-| [CWE-1422](1202-memory-storage/cwe-1422.md) | Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution | Done (↗1201) |
-| [CWE-1423](1202-memory-storage/cwe-1423.md) | Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution | Done (↗1201) |
+| [CWE-1342](1201-core-compute/cwe-1342.md) | Information Exposure through Microarchitectural State after Transient Execution | Done (↗1201) |
+| [CWE-1420](1201-core-compute/cwe-1420.md) | Exposure of Sensitive Information during Transient Execution | Done (↗1201) |
+| [CWE-1421](1201-core-compute/cwe-1421.md) | Exposure of Sensitive Information in Shared Microarchitectural Structures during Transient Execution | Done (↗1201) |
+| [CWE-1422](1201-core-compute/cwe-1422.md) | Exposure of Sensitive Information caused by Incorrect Data Forwarding during Transient Execution | Done (↗1201) |
+| [CWE-1423](1201-core-compute/cwe-1423.md) | Exposure of Sensitive Information caused by Shared Microarchitectural Predictor State that Influences Transient Execution | Done (↗1201) |
 
 ---
 
@@ -159,14 +159,14 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 
 | CWE ID | Title | Status |
 |--------|-------|--------|
-| [CWE-1232](1206-power-clock-thermal-reset/cwe-1232.md) | Improper Lock Behavior After Power State Transition | Done (↗1199) |
+| [CWE-1232](1199-circuit-logic-design/cwe-1232.md) | Improper Lock Behavior After Power State Transition | Done (↗1199) |
 | [CWE-1247](1206-power-clock-thermal-reset/cwe-1247.md) | Improper Protection Against Voltage and Clock Glitches | Done |
-| [CWE-1248](1206-power-clock-thermal-reset/cwe-1248.md) | Semiconductor Defects in Hardware Logic with Security-Sensitive Implications | Done (↗1195) |
+| [CWE-1248](1195-manufacturing-lifecycle/cwe-1248.md) | Semiconductor Defects in Hardware Logic with Security-Sensitive Implications | Done (↗1195) |
 | [CWE-1255](1206-power-clock-thermal-reset/cwe-1255.md) | Comparison Logic is Vulnerable to Power Side-Channel Attacks | Done |
 | [CWE-1256](1206-power-clock-thermal-reset/cwe-1256.md) | Improper Restriction of Software Interfaces to Hardware Features | Done |
 | [CWE-1271](1206-power-clock-thermal-reset/cwe-1271.md) | Uninitialized Value on Reset for Registers Holding Security Settings | Done |
 | [CWE-1304](1206-power-clock-thermal-reset/cwe-1304.md) | Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation | Done |
-| [CWE-1314](1206-power-clock-thermal-reset/cwe-1314.md) | Missing Write Protection for Parametric Data Values | Done (↗1198) |
+| [CWE-1314](1198-privilege-access-control/cwe-1314.md) | Missing Write Protection for Parametric Data Values | Done (↗1198) |
 | [CWE-1320](1206-power-clock-thermal-reset/cwe-1320.md) | Improper Protection for Outbound Error Messages and Alert Signals | Done |
 | [CWE-1332](1206-power-clock-thermal-reset/cwe-1332.md) | Improper Handling of Faults that Lead to Instruction Skips | Done |
 | [CWE-1338](1206-power-clock-thermal-reset/cwe-1338.md) | Improper Protections Against Hardware Overheating | Done |
@@ -179,7 +179,7 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 |--------|-------|--------|
 | [CWE-319](1207-debug-test/cwe-319.md) | Cleartext Transmission of Sensitive Information | Done |
 | [CWE-1191](1207-debug-test/cwe-1191.md) | On-Chip Debug and Test Interface With Improper Access Control | Done |
-| [CWE-1234](1207-debug-test/cwe-1234.md) | Hardware Internal or Debug Modes Allow Override of Locks | Done (↗1199) |
+| [CWE-1234](1199-circuit-logic-design/cwe-1234.md) | Hardware Internal or Debug Modes Allow Override of Locks | Done (↗1199) |
 | [CWE-1243](1207-debug-test/cwe-1243.md) | Sensitive Non-Volatile Information Not Protected During Debug | Done |
 | [CWE-1244](1207-debug-test/cwe-1244.md) | Internal Asset Exposed to Unsafe Debug Access Level or State | Done |
 | [CWE-1258](1207-debug-test/cwe-1258.md) | Exposure of Sensitive System Information Due to Uncleared Debug Information | Done |
@@ -198,7 +198,7 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 |--------|-------|--------|
 | [CWE-440](1208-cross-cutting/cwe-440.md) | Expected Behavior Violation | Done |
 | [CWE-1053](1208-cross-cutting/cwe-1053.md) | Missing Documentation for Design | Done |
-| [CWE-1059](1208-cross-cutting/cwe-1059.md) | Insufficient Technical Documentation | Done (↗1195) |
+| [CWE-1059](1195-manufacturing-lifecycle/cwe-1059.md) | Insufficient Technical Documentation | Done (↗1195) |
 | [CWE-1263](1208-cross-cutting/cwe-1263.md) | Improper Physical Access Control | Done |
 | [CWE-1277](1208-cross-cutting/cwe-1277.md) | Firmware Not Updateable | Done |
 | [CWE-1301](1208-cross-cutting/cwe-1301.md) | Insufficient or Incomplete Data Removal within Hardware Component | Done |
@@ -213,13 +213,13 @@ This document indexes all Common Weakness Enumeration (CWE) entries for Hardware
 
 | CWE ID | Title | Status |
 |--------|-------|--------|
-| [CWE-1247](1388-physical-access/cwe-1247.md) | Improper Protection Against Voltage and Clock Glitches | Done (↗1206) |
-| [CWE-1248](1388-physical-access/cwe-1248.md) | Semiconductor Defects in Hardware Logic with Security-Sensitive Implications | Done (↗1195) |
-| [CWE-1255](1388-physical-access/cwe-1255.md) | Comparison Logic is Vulnerable to Power Side-Channel Attacks | Done (↗1206) |
-| [CWE-1261](1388-physical-access/cwe-1261.md) | Improper Handling of Single Event Upsets | Done (↗1199) |
+| [CWE-1247](1206-power-clock-thermal-reset/cwe-1247.md) | Improper Protection Against Voltage and Clock Glitches | Done (↗1206) |
+| [CWE-1248](1195-manufacturing-lifecycle/cwe-1248.md) | Semiconductor Defects in Hardware Logic with Security-Sensitive Implications | Done (↗1195) |
+| [CWE-1255](1206-power-clock-thermal-reset/cwe-1255.md) | Comparison Logic is Vulnerable to Power Side-Channel Attacks | Done (↗1206) |
+| [CWE-1261](1199-circuit-logic-design/cwe-1261.md) | Improper Handling of Single Event Upsets | Done (↗1199) |
 | [CWE-1278](1388-physical-access/cwe-1278.md) | Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques | Done |
-| [CWE-1300](1388-physical-access/cwe-1300.md) | Improper Protection of Physical Side Channels | Done (↗1205) |
+| [CWE-1300](1205-security-primitives-crypto/cwe-1300.md) | Improper Protection of Physical Side Channels | Done (↗1205) |
 | [CWE-1319](1388-physical-access/cwe-1319.md) | Improper Protection against Electromagnetic Fault Injection (EM-FI) | Done |
-| [CWE-1332](1388-physical-access/cwe-1332.md) | Improper Handling of Faults that Lead to Instruction Skips | Done (↗1206) |
-| [CWE-1351](1388-physical-access/cwe-1351.md) | Improper Handling of Hardware Behavior in Exceptionally Cold Environments | Done (↗1205) |
+| [CWE-1332](1206-power-clock-thermal-reset/cwe-1332.md) | Improper Handling of Faults that Lead to Instruction Skips | Done (↗1206) |
+| [CWE-1351](1205-security-primitives-crypto/cwe-1351.md) | Improper Handling of Hardware Behavior in Exceptionally Cold Environments | Done (↗1205) |
 | [CWE-1384](1388-physical-access/cwe-1384.md) | Improper Handling of Physical or Environmental Conditions | Done |
